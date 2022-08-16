@@ -1,5 +1,10 @@
 # nodejs-chat-basic
 
+# Once you clone the project, use below commands to start 
+npm install
+npm run main
+
+
 # To open socket connection
 # Open chrome browser (http://localhost:3001/main.html) > Developer tools > console 
 const socket = io('http://localhost:3001', {"auth":{"username":"Jogesh_one"}});
